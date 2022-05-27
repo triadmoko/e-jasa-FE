@@ -4,78 +4,14 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 dark:bg-gray-800 pt-4 pb-8 xl:pt-8">
       <div className="max-w-screen-lg xl:max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8 text-gray-400 dark:text-gray-300">
-        <ul className="text-lg font-light pb-8 flex flex-wrap justify-center">
-          <li className="w-1/2 md:w-1/3 lg:w-1/3">
-            <div className="text-center">
-              <h2 className="text-gray-500 dark:text-gray-200 text-md uppercase mb-4">
-                Components
-              </h2>
-              <ul>
-                <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-                  <a href="./#">Elements</a>
-                </li>
-                <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-                  <a href="./#">Forms</a>
-                </li>
-                <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-                  <a href="./#">Commerces</a>
-                </li>
-                <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-                  <a href="./#">Navigation</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li className="w-1/2 md:w-1/3 lg:w-1/3">
-            <div className="text-center">
-              <h2 className="text-gray-500 dark:text-gray-200 text-md uppercase mb-4">
-                Contacts
-              </h2>
-              <ul>
-                <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-                  <a href="./#">Github</a>
-                </li>
-                <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-                  <a href="./#">Facebook</a>
-                </li>
-                <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-                  <a href="./#">Twitter</a>
-                </li>
-                <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-                  <a href="./#">LinkedIn</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li className="w-1/2 md:w-1/3 lg:w-1/3">
-            <div className="text-center">
-              <h2 className="text-gray-500 dark:text-gray-200 text-md uppercase mb-4">
-                Customization
-              </h2>
-              <ul>
-                <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-                  <a href="./#">Settings</a>
-                </li>
-                <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-                  <a href="./#">Themes</a>
-                </li>
-                <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-                  <a href="./#">Plugins</a>
-                </li>
-                <li className="mb-4 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
-                  <a href="./#">LinkedIn</a>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
+        
         <div className="pt-8 flex border-t border-gray-200 max-w-xs mx-auto items-center justify-between">
           <a href="./#">
             <svg
               width="20"
               height="20"
               fill="currentColor"
-              className="text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200"
+              className="text-xl hover:text-gray-100 dark:hover:text-white transition-colors duration-200"
               viewBox="0 0 1792 1792"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -87,7 +23,7 @@ const Footer = () => {
               width="20"
               height="20"
               fill="currentColor"
-              className="text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200"
+              className="text-xl hover:text-gray-100 dark:hover:text-white transition-colors duration-200"
               viewBox="0 0 1792 1792"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -100,10 +36,10 @@ const Footer = () => {
               width="20"
               height="20"
               fill="currentColor"
-              className="text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200"
-              viewBox="0 0 1792 1792"
+              className="text-xl hover:text-gray-100 dark:hover:text-white transition-colors duration-200"
+              viewBox="0 0 24 24"
             >
-              <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"></path>
+              <path d="M20,18H18V9.25L12,13L6,9.25V18H4V6H5.2L12,10.25L18.8,6H20M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"></path>
             </svg>
           </a>
           <a href="./#">
@@ -111,11 +47,11 @@ const Footer = () => {
               width="20"
               height="20"
               fill="currentColor"
-              className="text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200"
-              viewBox="0 0 1792 1792"
-              xmlns="http://www.w3.org/2000/svg"
+              className="text-xl hover:text-gray-100 dark:hover:text-white transition-colors duration-200"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/1999/xlink"
             >
-              <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+              <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z"></path>
             </svg>
           </a>
           <a href="./#">
@@ -123,16 +59,29 @@ const Footer = () => {
               width="20"
               height="20"
               fill="currentColor"
-              className="text-xl hover:text-gray-800 dark:hover:text-white transition-colors duration-200"
-              viewBox="0 0 1792 1792"
-              xmlns="http://www.w3.org/2000/svg"
+              className="text-xl hover:text-gray-100 dark:hover:text-white transition-colors duration-200"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/1999/xlink"
             >
-              <path d="M1551 1476q15-6 26-3t11 17.5-15 33.5q-13 16-44 43.5t-95.5 68-141 74-188 58-229.5 24.5q-119 0-238-31t-209-76.5-172.5-104-132.5-105-84-87.5q-8-9-10-16.5t1-12 8-7 11.5-2 11.5 4.5q192 117 300 166 389 176 799 90 190-40 391-135zm207-115q11 16 2.5 69.5t-28.5 102.5q-34 83-85 124-17 14-26 9t0-24q21-45 44.5-121.5t6.5-98.5q-5-7-15.5-11.5t-27-6-29.5-2.5-35 0-31.5 2-31 3-22.5 2q-6 1-13 1.5t-11 1-8.5 1-7 .5h-10l-3-.5-2-1.5-1.5-3q-6-16 47-40t103-30q46-7 108-1t76 24zm-394-443q0 31 13.5 64t32 58 37.5 46 33 32l13 11-227 224q-40-37-79-75.5t-58-58.5l-19-20q-11-11-25-33-38 59-97.5 102.5t-127.5 63.5-140 23-137.5-21-117.5-65.5-83-113-31-162.5q0-84 28-154t72-116.5 106.5-83 122.5-57 130-34.5 119.5-18.5 99.5-6.5v-127q0-65-21-97-34-53-121-53-6 0-16.5 1t-40.5 12-56 29.5-56 59.5-48 96l-294-27q0-60 22-119t67-113 108-95 151.5-65.5 190.5-24.5q100 0 181 25t129.5 61.5 81 83 45 86 12.5 73.5v589zm-672 21q0 86 70 133 66 44 139 22 84-25 114-123 14-45 14-101v-162q-59 2-111 12t-106.5 33.5-87 71-32.5 114.5z"></path>
+              <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"></path>
+            </svg>
+          </a>
+          <a href="./#">
+            <svg
+              width="20"
+              height="20"
+              fill="currentColor"
+              className="text-xl hover:text-gray-100 dark:hover:text-white transition-colors duration-200"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/1999/xlink"
+            >
+              <path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"></path>
             </svg>
           </a>
         </div>
         <div className="text-center pt-10 sm:pt-12 font-light flex items-center justify-center">
-          Created by Charlie
+          Created by
+          <img src="ites.png" alt="logo" width={50} />
         </div>
       </div>
     </footer>

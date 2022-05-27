@@ -12,14 +12,13 @@ const Header = () => {
             ITes merupakan salah satu wirausaha mahasiswa PTIK sebagai penyedia
             jasa Perbaikan, Multimedia dan solusi dari permasalahan IT anda.
             Kami melayani anda dengan senang hati, ITes akan menjadi solusi
-            terbaik bagi anda.
+            terbaik untuk anda.
           </p>
           <div className="lg:mt-0 lg:flex-shrink-0">
             <div className="mt-12 inline-flex rounded-md shadow">
               <button
                 type="button"
-                className="py-2 px-4  bg-green-500 hover:bg-green-700 focus:ring-green-500 focus:ring-offset-green-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
-              >
+                className="py-2 px-4  bg-indigo-500 hover:bg-cyan-500 focus:ring-green-300 focus:ring-offset-green-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                 Get Service
               </button>
             </div>
@@ -27,19 +26,19 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-8 p-8 lg:p-24">
           <img
-            src="https://toursbooked.com/sites/default/files/product_image/IMG-world-novo-cinema-dubai_0.jpg"
-            className="rounded-lg w-1/2"
+            src="https://cdn.pixabay.com/photo/2014/08/26/21/27/service-428540__340.jpg"
+            className="rounded-lg w-1/2 hover:scale-150 transition"
             alt="Tree"
           />
           <div>
             <img
-              src="https://pbblogassets.s3.amazonaws.com/uploads/2020/05/21115239/resolvecover-1.jpg"
-              className="rounded-lg mb-8"
+              src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849826__340.jpg"
+              className="rounded-lg mb-8 hover:scale-150 transition"
               alt="Tree"
             />
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5AkHrUa0KsCXRyVF8CWStiwvw2Eo5vQ6aqL7lcwLVURel-dchyg-75LXREjNaQeDwgZg&usqp=CAU"
-              className="rounded-lg"
+              src="https://cdn.pixabay.com/photo/2019/11/11/01/43/camera-4616982__340.jpg"
+              className="rounded-lg hover:scale-150 transition"
               alt="Tree"
             />
           </div>
