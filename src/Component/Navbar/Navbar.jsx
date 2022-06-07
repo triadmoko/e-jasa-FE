@@ -1,13 +1,14 @@
 import { Fragment, React } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Link } from "react-router-dom";
 
 const navigation = [
-  { name: "Home", href: "./#" },
-  { name: "About", href: "./#" },
-  { name: "Services", href: "./#" },
-  { name: "Contact", href: "./#" },
-  { name: "Testimoni", href: "./#" },
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
+  { name: "Services", href: "" },
+  { name: "Contact", href: "" },
+  { name: "Testimoni", href: "" },
 ];
 const Navbar = () => {
   return (
@@ -32,13 +33,15 @@ const Navbar = () => {
               >
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="./#">
+                    <Link to="/">
                       <span className="sr-only">ITes</span>
                       <img
                         alt="ITes"
                         className="h-8 w-auto sm:h-20"
-                        src="ites.png"/>
-                    </a>
+                        src="ites.png"
+                      />
+                    </Link>
+
                     <div className="-mr-2 flex items-center md:hidden">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Open main menu</span>
@@ -47,22 +50,22 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-6">
                   {navigation.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
-                      href={item.href}
+                      to={item.href}
                       className="font-medium text-gray-500 hover:text-cyan-500"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
-                  <a
-                    href="./#"
+                  <Link
+                    to="./#"
                     className="font-medium text-indigo-600 hover:text-teal-500 hover:scale-150 transition-all"
                   >
                     Log in
-                  </a>
+                  </Link>
                 </div>
               </nav>
             </div>
@@ -128,7 +131,8 @@ const Navbar = () => {
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Di ITes tersedia layanan perbaikan laptop atau komputer anda, pembuatan spanduk atau banner, atau fotografi.
+                Di ITes tersedia layanan perbaikan laptop atau komputer anda,
+                pembuatan spanduk atau banner, atau fotografi.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
