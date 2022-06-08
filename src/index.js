@@ -2,7 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import Home from "./layout/Home/Home";
+import Navigated from "./Component/Navbar/Navbar";
 import About from "./layout/About/About";
+import Contact from "./layout/Contact/Contact";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -10,8 +12,11 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<Navigated />}>
+          <Route path="/about" element={<About />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );
