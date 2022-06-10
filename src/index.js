@@ -5,6 +5,8 @@ import Home from "./layout/Home/Home";
 import Navigated from "./Component/Navbar/Navbar";
 import About from "./layout/About/About";
 import Contact from "./layout/Contact/Contact";
+import Testimoni from "./layout/Testimoni/Testimoni"
+import Services from "./Component/Content/Services";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -15,7 +17,9 @@ export default function App() {
         <Route path="/" element={<Navigated />}>
           <Route path="/about" element={<About />} />
           <Route path="/" element={<Home />} />
+          <Route path="/Testimoni" element={<Testimoni />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/Services" element={<Services />} />
         </Route>
       </Routes>
     </BrowserRouter>
