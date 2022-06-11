@@ -39,16 +39,6 @@ const Navbar = () => {
                   </div>
                 </div>
               </div>
-              <a href="./Login">
-                <div className="flex flex-row-reverse">
-                  <button
-                    type="button"
-                    className="py-2 px-4 bg-indigo-500 hover:bg-cyan-500 focus:ring-green-300 focus:ring-offset-green-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg shadow-fuchsia-400"
-                  >
-                    Login / Register
-                  </button>
-                </div>
-              </a>
               <div className="-mr-2 flex md:hidden">
                 <button
                   onClick={() => setIsOpen(!isOpen)}

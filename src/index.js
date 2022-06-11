@@ -7,6 +7,9 @@ import About from "./layout/About/About";
 import Contact from "./layout/Contact/Contact";
 import Testimoni from "./layout/Testimoni/Testimoni"
 import Services from "./Component/Content/Services";
+import Login from "./layout/Auth/Login";
+import Register from "./layout/Auth/Register";
+import Forgot from "./layout/Auth/Forgot";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -20,6 +23,9 @@ export default function App() {
           <Route path="/Testimoni" element={<Testimoni />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/Services" element={<Services />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/Register" element={<Register />} />
+          <Route path="/Forgot" element={<Forgot />} />
         </Route>
       </Routes>
     </BrowserRouter>
