@@ -1,8 +1,9 @@
 import React from "react";
+import 'animate.css';
 
 const Features = () => {
   return (
-    <section className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 mb-10">
+    <section className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 mb-10 animate__animated animate__fadeInUpBig animate__delay-3s">
       <p className="text-center text-3xl font-bold text-gray-800 dark:text-white">
         Service ITes
       </p>

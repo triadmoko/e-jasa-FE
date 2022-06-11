@@ -1,10 +1,11 @@
 import React from "react";
+import 'animate.css';
 
 const Teams = () => {
   return (
     <section>
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 mb-20">
-        <div className="p-8 bg-dark-800 dark:bg-gray-800 rounded-lg shadow">
+        <div className="p-8 bg-dark-800 dark:bg-gray-800 rounded-lg shadow will-change-transform animate__animated animate__fadeInUp animate__delay-2s">
           <p className="text-center text-3xl font-bold text-gray-800 dark:text-white">
             Profil Pengurus ITes
           </p>

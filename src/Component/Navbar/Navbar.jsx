@@ -5,23 +5,23 @@ import Footer from "./../Footer/Footer";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Services", href: "" },
+  { name: "Services", href: "/Services" },
   { name: "Contact", href: "/contact" },
-  { name: "Testimoni", href: "" },
+  { name: "Testimoni", href: "/testimoni" },
 ];
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <div>
-        <nav className="bg-gray-800">
+        <nav className="bg-blue-800">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
                   <img
-                    className="h-8 w-8"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                    className="h-20 w-20"
+                    src="ites.png"
                     alt="Workflow"
                   />
                 </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
                       <Link
                         key={item.name}
                         to={item.href}
-                        className="font-medium text-gray-500 hover:text-cyan-500"
+                        className="font-medium text-white hover:text-cyan-300 delay-150 duration-300"
                       >
                         {item.name}
                       </Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
               <div className="flex flex-row-reverse">
                 <button
                   type="button"
-                  className="py-2 px-4  bg-indigo-500 hover:bg-cyan-500 focus:ring-green-300 focus:ring-offset-green-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+                  className="py-2 px-4 bg-indigo-500 hover:bg-cyan-500 focus:ring-green-300 focus:ring-offset-green-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg shadow-fuchsia-400"
                 >
                   Login / Register
                 </button>
