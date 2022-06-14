@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+require(".env").config();
 
 function App() {
   return (

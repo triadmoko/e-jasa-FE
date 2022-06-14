@@ -3,40 +3,40 @@ import 'animate.css';
 
 const About = () => {
     return (
-        <section class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
-            <div class="text-5xl font-extrabold text-center h-32 animate__animated animate__slideInDown">
-                <span class="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 to-cyan-400">
+        <section className="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] overflow-hidden">
+            <div className="text-5xl font-extrabold text-center h-32 animate__animated animate__slideInDown">
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-600 to-cyan-400">
                     IT Effort Solution
                 </span>
             </div>
-        <div class="container">
-            <div class="flex flex-wrap justify-between items-center -mx-4">
-                <div class="w-full lg:w-6/12 px-4">
-                    <div class="flex items-center -mx-3 sm:-mx-4">
-                    <div class="w-full xl:w-1/2 px-3 sm:px-4 snap-x">
-                        <div class="py-3 sm:py-4 scroll-ml-6 snap start animate__animated animate__zoomIn animate__slower">
+        <div className="container">
+            <div className="flex flex-wrap justify-between items-center -mx-4">
+                <div className="w-full lg:w-6/12 px-4">
+                    <div className="flex items-center -mx-3 sm:-mx-4">
+                    <div className="w-full xl:w-1/2 px-3 sm:px-4 snap-x">
+                        <div className="py-3 sm:py-4 scroll-ml-6 snap start animate__animated animate__zoomIn animate__slower">
                             <img
                                 src="https://c4.wallpaperflare.com/wallpaper/322/549/271/adobe-after-effects-adobe-creative-wallpaper-preview.jpg"
                                 alt=""
-                                class="rounded-2xl w-full origin-top-bottom rotate-12 backdrop-contrast-50 bg-white/30 shadow-lg shadow-black"
+                                className="rounded-2xl w-full origin-top-bottom rotate-12 backdrop-contrast-50 bg-white/30 shadow-lg shadow-black"
                                 />
                         </div>
-                        <div class="py-3 sm:py-4 scroll-ml-6 snap-start animate__animated animate__zoomIn animate__slow">
+                        <div className="py-3 sm:py-4 scroll-ml-6 snap-start animate__animated animate__zoomIn animate__slow">
                             <img
                                 src="https://media.istockphoto.com/photos/computer-repair-engineer-pc-electronic-hardware-picture-id1144570843?k=20&m=1144570843&s=170667a&w=0&h=nqt8aUI-_mmFwk5H6B5Ennwtjt7U4D0USowFlhDVyf0="
                                 alt=""
-                                class="rounded-2xl w-full translate-y-12 shadow-lg shadow-sky-200"
+                                className="rounded-2xl w-full translate-y-12 shadow-lg shadow-sky-200"
                                 />
                         </div>
                     </div>
-                    <div class="w-full xl:w-1/2 px-3 sm:px-4 scroll-ml-6 snap-start overflow-hidden animate__animated animate__zoomIn animate__delay-1s">
-                        <div class="my-4 relative z-10">
+                    <div className="w-full xl:w-1/2 px-3 sm:px-4 scroll-ml-6 snap-start overflow-hidden animate__animated animate__zoomIn animate__delay-1s">
+                        <div className="my-4 relative z-10">
                             <img
                                 src="https://images.unsplash.com/photo-1593106584374-89259e7efb8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHw%3D&w=1000&q=80"
                                 alt=""
-                                class="rounded-2xl w-full rotate-3 shadow-lg shadow-yellow-500"
+                                className="rounded-2xl w-full rotate-3 shadow-lg shadow-yellow-500"
                                 />
-                            <span class="absolute -right-7 -bottom-7 z-[-1]">
+                            <span className="absolute -right-7 -bottom-7 z-[-1]">
                                 <svg
                                 width="134"
                                 height="106"
@@ -610,22 +610,22 @@ const About = () => {
                     </div>
                     </div>
                 </div>
-                <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
-                    <div class="mt-10 lg:mt-0">
-                    <span class="font-semibold font-serif underline antialiased text-lg text-primary mb-2 block mix-blend-multiply bg-blue-700 shadow-lg shadow-violet-800 text-center text-white  animate__animated animate__fadeInLeft animate__fast">
+                <div className="w-full lg:w-1/2 xl:w-5/12 px-4">
+                    <div className="mt-10 lg:mt-0">
+                    <span className="font-semibold font-serif underline antialiased text-lg text-primary mb-2 block mix-blend-multiply bg-blue-700 shadow-lg shadow-violet-800 text-center text-white  animate__animated animate__fadeInLeft animate__fast">
                     Mengapa Memilih Kami?
                     </span>
-                    <h2 class="font-bold text-3xl sm:text-4xl text-dark mb-8 mix-blend-multiply bg-cyan-400 shadow-lg shadow-indigo-800 text-blue-900 animate__animated animate__fadeInRight animate__faster">
+                    <h2 className="font-bold text-3xl sm:text-4xl text-dark mb-8 mix-blend-multiply bg-cyan-400 shadow-lg shadow-indigo-800 text-blue-900 animate__animated animate__fadeInRight animate__faster">
                         It's Simple.
                     </h2>
-                    <p class="text-base text-body-color mb-8  animate__animated animate__fadeInUp animate__delay-1s">
+                    <p className="text-base text-body-color mb-8  animate__animated animate__fadeInUp animate__delay-1s">
                         Karena kami mempunyai layanan untuk pelanggan
                         yang proffesional agar pelanggan puas.
                         Pelanggan puas kami senang.
                     </p>
-                    <p class="text-base text-body-color mb-12 animate__animated animate__fadeInUp animate__delay-1s">
+                    <p className="text-base text-body-color mb-12 animate__animated animate__fadeInUp animate__delay-1s">
                         Dengan menggunakan jasa ITes
-                        <p class="text-blue-500 font-bold">kepuasan anda menjadi nomor 1.</p>
+                        <p className="text-blue-500 font-bold">kepuasan anda menjadi nomor 1.</p>
                         Anda puas kami senang.
                     </p>
                     </div>
