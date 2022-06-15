@@ -5,13 +5,13 @@ import Home from "./layout/Home/Home";
 import Navigated from "./Component/Navbar/Navbar";
 import About from "./layout/About/About";
 import Contact from "./layout/Contact/Contact";
-import Testimoni from "./layout/Testimoni/Testimoni"
-import Services from "./Component/Content/Services";
+import Testimoni from "./layout/Testimoni/Testimoni";
 import Login from "./layout/Auth/Login";
 import Register from "./layout/Auth/Register";
 import Forgot from "./layout/Auth/Forgot";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Jasa from "./layout/Services/Services";
 
 export default function App() {
   return (
@@ -22,7 +22,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Testimoni" element={<Testimoni />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/Services" element={<Services />} />
+          <Route path="/Services" element={<Jasa />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
           <Route path="/Forgot" element={<Forgot />} />
