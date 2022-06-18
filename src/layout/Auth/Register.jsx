@@ -86,7 +86,22 @@ class Register extends Component {
         .then(
           (response) => {
             this.setState({
-              message: response.data.message,
+              message: <div class="flex h-full flex-col justify-between">
+              <svg class="h-12 w-12 mt-4 m-auto text-green-500" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                  </path>
+              </svg>
+              <p class="text-gray-600 dark:text-gray-100 text-md py-2 px-1">
+                  Account has been created.
+              </p>
+              <a href="./Login">
+              <div class="flex items-center justify-between gap-4 w-full mt-8">
+                  <button type="button" class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                      Close
+                  </button>
+              </div>
+              </a>
+          </div>,
               successful: true,
             });
           },
@@ -201,28 +216,7 @@ class Register extends Component {
                               onChange={this.onChangePassword}
                               validations={[required, valPassword]}
                             />
-                          </div>
-
-                          <div>
-                            <label className="inline-flex items-center cursor-pointer">
-                              <Input
-                                id="customCheckLogin"
-                                type="checkbox"
-                                className="form-checkbox border-0 rounded text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
-                              />
-                              <span className="ml-2 text-sm font-semibold text-blueGray-600">
-                                I agree with the{" "}
-                                <a
-                                  href="#pablo"
-                                  className="text-lightBlue-500"
-                                  onClick={(e) => e.preventDefault()}
-                                >
-                                  Privacy Policy
-                                </a>
-                              </span>
-                            </label>
-                          </div>
-
+                          </div>                      
                           <div className="text-center mt-6">
                             <button className="bg-blue-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-cyan-500 outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150">
                               Create Account
